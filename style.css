@@ -635,20 +635,23 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
-#pagination{
-    text-align: center;
+#pagination {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
-#pagination a{
-    text-decoration: none;
-    background-color: #088178;
-    padding: 15px 20px;
+
+#pagination a {
+    padding: 10px 15px;
+    border: 1px solid #088178;
     border-radius: 4px;
-    color: #fff;
-    font-weight: 600;
+    text-decoration: none;
+    color: #088178;
 }
-#pagination a i{
-    font-size: 16px;
-    font-weight: 600;
+
+#pagination a:hover {
+    background-color: #088178;
+    color: white;
 }
 
 
