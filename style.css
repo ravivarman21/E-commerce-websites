@@ -639,19 +639,28 @@ footer .copyright{
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: center;
+    padding: 150px 150px 0 150px;
+    margin-top: 80px;
 }
 
 #pagination a {
-    padding: 10px 15px;
-    border: 1px solid #088178;
-    border-radius: 4px;
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px solid #088178;
+    border-radius: 5px;
     text-decoration: none;
-    color: #088178;
+    color: white;                 /* White text */
+    background-color: #088178;    /* Green background */
+    font-weight: bold;
+    font-size: 16px;              /* Big numbers */
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 #pagination a:hover {
-    background-color: #088178;
-    color: white;
+    background-color: #06614f;    /* Slightly darker green */
+    transform: scale(1.1);        /* Makes it slightly bigger */
 }
 
 
